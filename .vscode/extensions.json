@@ -5,7 +5,6 @@
     "oderwat.indent-rainbow",
     "GitHub.codespaces",
     "ms-python.debugpy",
-    "mechatroner.rainbow-csv",
-    "ms-python.vscode-python-envs"
+    "mechatroner.rainbow-csv"
   ]
 }
