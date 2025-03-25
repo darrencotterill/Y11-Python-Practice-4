@@ -1,6 +1,7 @@
 from testhelper import test
 
 # Write the function that combines 2 shopping lists or words, removing duplicates
+# and returns the new list.
 def combine_lists(list1, list2):
     return [] # Replace this line with your solution
 
