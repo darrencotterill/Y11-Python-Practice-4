@@ -15,19 +15,22 @@ for word in words_list:
     if len(word) > 2 and len(word) < 10:
         all_words.append(word.decode('ascii'))
     if len(word) == 9:
-        nine_letter_words.append(word)
+        nine_letter_words.append(word.decode('ascii'))
 
 word_to_guess = nine_letter_words[random.randint(0,len(nine_letter_words))]
 
 start_time = time.time()
 score = 0
 
-def draw_word_grid():
-    # You need to write this function
-    pass
+def draw_word_grid(w):
+    str_var = list(w)
+    print (str_var)
+    random.shuffle(str_var)
+    shuffled = "".join(str_var)
+
+draw_word_grid(word_to_guess)
 
 while (time.time() < (start_time + 60)):
-    draw_word_grid()
     # Replace the code below with your code 
     word = input("Guess:")
     print(word)
